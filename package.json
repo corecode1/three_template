@@ -1,0 +1,42 @@
+{
+  "name": "three_template",
+  "version": "1.0.0",
+  "description": "template for threejs projects",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.1"
+  },
+  "browserify": {
+    "transform": [
+      "babelify",
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {},
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "7.4.4",
+    "babelify": "10.0.0",
+    "browser-sync": "2.26.5",
+    "browserify": "16.2.3",
+    "browserify-shim": "3.8.14",
+    "gulp-clean": "0.4.0",
+    "gulp-html-minifier2": "1.1.11",
+    "live-reload": "1.1.0",
+    "vinyl-source-stream": "2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corecode1/three_template.git"
+  },
+  "author": "corecode1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corecode1/three_template/issues"
+  },
+  "homepage": "https://github.com/corecode1/three_template#readme"
+}

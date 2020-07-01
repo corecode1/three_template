@@ -1,0 +1,7 @@
+requires global gulp module
+
+npm i
+
+npm install typings --global
+
+typings install dt~three --save --global
